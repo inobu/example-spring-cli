@@ -5,7 +5,7 @@ import org.springframework.boot.ApplicationRunner
 import org.springframework.stereotype.Component
 
 @Component
-class ApplicationRunnerImpl: ApplicationRunner {
+class ApplicationRunnerImpl : ApplicationRunner {
 
     override fun run(args: ApplicationArguments?) {
         println("値を入力してください")
